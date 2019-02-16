@@ -13,9 +13,9 @@ class RestaurantForm(forms.ModelForm):
         }
         
 
-    def __init__(self, arg):
-        super(ClassName, self).__init__()
-        self.arg = arg
+    # def __init__(self, arg):
+    #     super(ClassName, self).__init__()
+    #     self.arg = arg
 
 class SignupForm(forms.ModelForm):
 	class Meta:

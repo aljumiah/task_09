@@ -29,7 +29,7 @@ def signin(request):
             auth_user = authenticate(username=username, password=password)
             if auth_user is not None:
                 login(request, auth_user)
-            return redirect("restaurant-list")
+                return redirect("restaurant-list")
     context = {
         "form":form,
     }
